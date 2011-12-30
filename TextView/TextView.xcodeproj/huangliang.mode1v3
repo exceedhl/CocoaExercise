@@ -253,7 +253,7 @@
 						<dict>
 							<key>PBXSmartGroupTreeModuleColumnWidthsKey</key>
 							<array>
-								<real>186</real>
+								<real>231</real>
 							</array>
 							<key>PBXSmartGroupTreeModuleColumnsKey_v4</key>
 							<array>
@@ -282,13 +282,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>20</integer>
-									<integer>9</integer>
+									<integer>3</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {186, 660}}</string>
+							<string>{{0, 0}, {231, 660}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -300,11 +300,11 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {203, 678}}</string>
+						<string>{{0, 0}, {248, 678}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
-							<real>186</real>
+							<real>231</real>
 						</array>
 						<key>RubberWindowFrame</key>
 						<string>0 59 1280 719 0 0 1280 778 </string>
@@ -312,7 +312,7 @@
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
 					<key>Proportion</key>
-					<string>203pt</string>
+					<string>248pt</string>
 				</dict>
 				<dict>
 					<key>Dock</key>
@@ -337,13 +337,15 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>BAE8D34A14ACB94000A442C4</string>
+										<string>BAE8D3B314ADDBE800A442C4</string>
 										<key>history</key>
 										<array>
 											<string>BA7D005214AB41EB0015CC8B</string>
 											<string>BA7D005714AB41F70015CC8B</string>
-											<string>BAE8D33B14ACB78D00A442C4</string>
-											<string>BAE8D33C14ACB78D00A442C4</string>
+											<string>BAE8D38614ADD7B300A442C4</string>
+											<string>BAE8D39C14ADD97D00A442C4</string>
+											<string>BAE8D3AD14ADDBA800A442C4</string>
+											<string>BAE8D3AE14ADDBA800A442C4</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -355,7 +357,7 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1072, 673}}</string>
+								<string>{{0, 0}, {1027, 673}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 59 1280 719 0 0 1280 778 </string>
 							</dict>
@@ -375,7 +377,7 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 678}, {1072, 0}}</string>
+								<string>{{0, 678}, {1027, 0}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 59 1280 719 0 0 1280 778 </string>
 							</dict>
@@ -386,7 +388,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>1072pt</string>
+					<string>1027pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -541,13 +543,14 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>BAE8D3B414ADDBE800A442C4</string>
 		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>1C0AD2AF069F1E9B00FABCE6</string>
 		<string>BAE8D17814AC7D2500A442C4</string>
 		<string>BAE8D17914AC7D2500A442C4</string>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>BA7DFF9B14A9EAEB0015CC8B</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/huangliang/code/cocoa/CocoaExercise/TextView/TextView.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -924,7 +927,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

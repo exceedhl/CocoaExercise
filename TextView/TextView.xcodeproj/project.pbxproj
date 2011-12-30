@@ -22,6 +22,7 @@
 		BA7DFFE414AAFB980015CC8B /* text_underline.png in Resources */ = {isa = PBXBuildFile; fileRef = BA7DFFDD14AAFB980015CC8B /* text_underline.png */; };
 		BAE8D29614ACAAD300A442C4 /* BWToolkitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE8D29514ACAAD300A442C4 /* BWToolkitFramework.framework */; };
 		BAE8D2CD14ACAB0600A442C4 /* BWToolkitFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BAE8D29514ACAAD300A442C4 /* BWToolkitFramework.framework */; };
+		BAE8D37C14ADD56F00A442C4 /* MyTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE8D37B14ADD56F00A442C4 /* MyTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -60,6 +61,8 @@
 		BA7DFFDC14AAFB980015CC8B /* text_italic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = text_italic.png; path = icons/text_italic.png; sourceTree = "<group>"; };
 		BA7DFFDD14AAFB980015CC8B /* text_underline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = text_underline.png; path = icons/text_underline.png; sourceTree = "<group>"; };
 		BAE8D29514ACAAD300A442C4 /* BWToolkitFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BWToolkitFramework.framework; path = /Users/huangliang/code/cocoa/BWToolkit/BWToolkitFramework.framework; sourceTree = "<absolute>"; };
+		BAE8D37A14ADD56F00A442C4 /* MyTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTextView.h; sourceTree = "<group>"; };
+		BAE8D37B14ADD56F00A442C4 /* MyTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 				256AC3D90F4B6AC300CF3369 /* TextViewAppDelegate.m */,
 				BA7D002E14AB3FEB0015CC8B /* NSText+Extention.h */,
 				BA7D002F14AB3FEB0015CC8B /* NSText+Extention.m */,
+				BAE8D37A14ADD56F00A442C4 /* MyTextView.h */,
+				BAE8D37B14ADD56F00A442C4 /* MyTextView.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -241,6 +246,7 @@
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				256AC3DA0F4B6AC300CF3369 /* TextViewAppDelegate.m in Sources */,
 				BA7D003014AB3FEB0015CC8B /* NSText+Extention.m in Sources */,
+				BAE8D37C14ADD56F00A442C4 /* MyTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

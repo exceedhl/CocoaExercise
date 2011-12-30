@@ -31,6 +31,10 @@
 	NSLog(@"%@", [textView typingAttributes]);
 }
 
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
+	NSLog(@"%@ changed from %@ to %@", keyPath, [change objectForKey:NSKeyValueChangeOldKey], [change objectForKey:NSKeyValueChangeNewKey]);
+}
+
 - (NSRange)textView:(NSTextView *)aTextView willChangeSelectionFromCharacterRange:(NSRange)oldSelectedCharRange toCharacterRange:(NSRange)newSelectedCharRange {
 	[self willChangeValueForKey:@"fontName"];
 	[self willChangeValueForKey:@"fontSize"];
