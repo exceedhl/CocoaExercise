@@ -11,11 +11,11 @@
 @interface TextViewAppDelegate : NSObject <NSApplicationDelegate, NSTextDelegate, NSTextViewDelegate> {
     NSWindow *window;
 	NSTextView *textView;
-	NSPanel *panel;
 }
 
 @property (assign) IBOutlet NSWindow *window;
 @property (assign) IBOutlet NSTextView *textView;
-@property (assign) IBOutlet NSPanel *panel;
+
+- (IBAction)showPanel:(id)sender;
 
 @end

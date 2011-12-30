@@ -23,6 +23,8 @@
 		BAE8D29614ACAAD300A442C4 /* BWToolkitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE8D29514ACAAD300A442C4 /* BWToolkitFramework.framework */; };
 		BAE8D2CD14ACAB0600A442C4 /* BWToolkitFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BAE8D29514ACAAD300A442C4 /* BWToolkitFramework.framework */; };
 		BAE8D37C14ADD56F00A442C4 /* MyTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE8D37B14ADD56F00A442C4 /* MyTextView.m */; };
+		BAE8D3BC14ADDDEA00A442C4 /* TextViewAttributesPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAE8D3BB14ADDDEA00A442C4 /* TextViewAttributesPanel.xib */; };
+		BAE8D3C414ADDF6400A442C4 /* TextViewAttributesPanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE8D3C314ADDF6400A442C4 /* TextViewAttributesPanelController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -63,6 +65,9 @@
 		BAE8D29514ACAAD300A442C4 /* BWToolkitFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BWToolkitFramework.framework; path = /Users/huangliang/code/cocoa/BWToolkit/BWToolkitFramework.framework; sourceTree = "<absolute>"; };
 		BAE8D37A14ADD56F00A442C4 /* MyTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTextView.h; sourceTree = "<group>"; };
 		BAE8D37B14ADD56F00A442C4 /* MyTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTextView.m; sourceTree = "<group>"; };
+		BAE8D3BB14ADDDEA00A442C4 /* TextViewAttributesPanel.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextViewAttributesPanel.xib; sourceTree = "<group>"; };
+		BAE8D3C214ADDF6400A442C4 /* TextViewAttributesPanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewAttributesPanelController.h; sourceTree = "<group>"; };
+		BAE8D3C314ADDF6400A442C4 /* TextViewAttributesPanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewAttributesPanelController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +92,8 @@
 				BA7D002F14AB3FEB0015CC8B /* NSText+Extention.m */,
 				BAE8D37A14ADD56F00A442C4 /* MyTextView.h */,
 				BAE8D37B14ADD56F00A442C4 /* MyTextView.m */,
+				BAE8D3C214ADDF6400A442C4 /* TextViewAttributesPanelController.h */,
+				BAE8D3C314ADDF6400A442C4 /* TextViewAttributesPanelController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -146,6 +153,7 @@
 				8D1107310486CEB800E47090 /* TextView-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				BAE8D3BB14ADDDEA00A442C4 /* TextViewAttributesPanel.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -233,6 +241,7 @@
 				BA7DFFE214AAFB980015CC8B /* text_bold.png in Resources */,
 				BA7DFFE314AAFB980015CC8B /* text_italic.png in Resources */,
 				BA7DFFE414AAFB980015CC8B /* text_underline.png in Resources */,
+				BAE8D3BC14ADDDEA00A442C4 /* TextViewAttributesPanel.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +256,7 @@
 				256AC3DA0F4B6AC300CF3369 /* TextViewAppDelegate.m in Sources */,
 				BA7D003014AB3FEB0015CC8B /* NSText+Extention.m in Sources */,
 				BAE8D37C14ADD56F00A442C4 /* MyTextView.m in Sources */,
+				BAE8D3C414ADDF6400A442C4 /* TextViewAttributesPanelController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

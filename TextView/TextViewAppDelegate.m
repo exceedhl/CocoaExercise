@@ -7,6 +7,7 @@
 //
 
 #import "TextViewAppDelegate.h"
+#import "TextViewAttributesPanelController.h"
 
 @interface TextViewAppDelegate (PrivateCategory)
 
@@ -22,11 +23,8 @@
 
 @synthesize window;
 @synthesize textView;
-@synthesize panel;
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-	[panel setBecomesKeyOnlyIfNeeded:TRUE];
-	
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {	
 	[self setFont:[NSFont fontWithName:@"Helvetica" size:14]];
 	NSLog(@"%@", [textView typingAttributes]);
 }
@@ -205,6 +203,13 @@
 		[newAttr setObject:value forKey:name];
 		[textView setTypingAttributes:newAttr];
 	}	
+}
+
+- (IBAction)showPanel:(id)sender {
+	TextViewAttributesPanelController *c = [[TextViewAttributesPanelController alloc] initWithWindowNibName:@"TextViewAttributesPanel"];
+	c.textViewAttributes = self;
+	[c setBecomesKeyOnlyIfNeeded:TRUE];
+	[c showWindow:sender];
 }
 
 @end
